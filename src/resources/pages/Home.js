@@ -19,7 +19,7 @@ const Home = () => {
         Want to learn more <a href="/about">about us</a>? Feel free to explore!
       </p>
       <p>
-        Need assistance? Don't hesitate to <a href="/contact">contact us</a>.
+        <a href="/contact">contact us</a>.
       </p>
     </div>
   );
