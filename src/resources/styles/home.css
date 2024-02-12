@@ -1,3 +1,10 @@
+
+
 body {
-    background-color: rgb(210, 208, 216);
+    /* Created with https://www.css-gradient.com, Gradient link: https://www.css-gradient.com/?c1=d2d0d8&c2=baa2de&gt=r&gd=dtr */
+    background: #D2D0D8;
+    background-image: radial-gradient(at right top, #D2D0D8, #BAA2DE);
+    background-size: cover;
+    height: 100vh;
+    object-fit: cover;
 }
