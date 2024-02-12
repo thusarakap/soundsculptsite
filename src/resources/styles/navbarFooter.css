@@ -1,26 +1,76 @@
 /* Navbar styles */
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #00000000;
-    color: #000000;
+    color: #000000; 
     padding: 1rem;
-  }
-  
-  .navbar ul {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-  }
-  
-  .navbar ul li {
+}
+
+.navbar ul li {
     display: inline-block;
     margin-right: 1rem;
-  }
-  
-  .navbar ul li a {
-    color: #000000;
+    padding: 0 30px 0 30px; 
+}
+
+.navbar ul li:last-child {
+    margin-right: 0; 
+}
+
+.navbar ul li a {
+    color: #3f3f3f; 
     text-decoration: none;
-  }
-  
+}
+
+.navbar ul li a:hover {
+    color: #7431a0;
+    font-size: 2rem;
+    transition: 0.3s ease;
+}
+
+.navbar ul li a:not(:hover) {
+    transition: font-size 0.3s ease;
+}
+
+.logo img {
+    margin-left: 50px;
+    width: 150px;
+    height: auto;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.email a {
+    color: #313131;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+.email :hover {
+    color: #53337e;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+}
+    
+.email img {
+    margin-right: 10px; 
+    width: 30px;
+    height: auto;
+}
+
+
   /* Footer styles */
   .footer {
     background-color: #333;
