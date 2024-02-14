@@ -21,7 +21,7 @@ const Navbar = () => {
       </ul>
       <div className="email">
         <img src={emailIcon} alt="Email Icon" />
-        <a href="/Contact">contact@soundsculpt.com</a>
+        <a href="/Contact">support@soundsculpt.com</a>
         </div>
     </nav>
   );
