@@ -5,12 +5,12 @@ import '../styles/home.css';
 const Home = () => {
   return (
     <div>
+      <div className="gradient-background">
+        {/* You can put any content you want in this div */}
+      </div>
       <h1>Welcome to Our Website!</h1>
       <p>
         We are dedicated to providing you with the best products and services.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit
-        sodales mauris nec fermentum. Integer ultricies dolor ac magna
-        sollicitudin vehicula.
       </p>
       <p>
         <strong>Featured Products:</strong> Check out our latest offerings in
