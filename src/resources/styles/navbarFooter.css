@@ -26,18 +26,16 @@
 }
 
 .navbar ul li a {
-    color: #3f3f3f; 
+    display: inline-block; 
     text-decoration: none;
+    color: #313131; 
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-shadow: 6px 4px 8px #31313141;
 }
 
 .navbar ul li a:hover {
-    color: #7431a0;
-    font-size: 2rem;
+    transform: scale(1.5);
     transition: 0.3s ease;
-}
-
-.navbar ul li a:not(:hover) {
-    transition: font-size 0.3s ease;
 }
 
 .logo img {
@@ -58,18 +56,23 @@
     text-decoration: none;
 }
 
-.email :hover {
-    color: #53337e;
-    font-size: 1.5rem;
-    transition: 0.3s ease-in-out;
-}
-    
 .email img {
     margin-right: 10px; 
     width: 30px;
     height: auto;
 }
 
+
+.email :hover {
+    color: #53337e;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.email :not(:hover) {
+    transition: font-size 0.3s ease;
+}
+    
 
   /* Footer styles */
   .footer {
