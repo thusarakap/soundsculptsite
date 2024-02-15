@@ -1,20 +1,35 @@
 // Downloads.js
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/downloads.css';
 
 const Downloads = () => {
+  const [releases, setReleases] = useState([]);
+
+  useEffect(() => {
+    fetch('https://api.github.com/repos/thusarakap/SoundSculpt/releases')
+      .then(response => response.json())
+      .then(data => {
+        if (Array.isArray(data)) {
+          setReleases(data);
+        } else {
+          console.error('Error: Expected array but received', data);
+          setReleases([]);
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching releases:', error);
+        setReleases([]);
+      });
+  }, []);
+
   return (
-    <div class="releases-page">
-        <h1>Releases</h1>
-        <div class="release">
-            <a href="release1.zip" download>Release 1</a>
+    <div className="releases-page">
+      <h1>Releases</h1>
+      {releases.map(release => (
+        <div className="release" key={release.id}>
+          <a href={release.zipball_url} download>{release.name || release.tag_name}</a>
         </div>
-        <div class="release">
-            <a href="release2.zip" download>Release 2</a>
-        </div>
-        <div class="release">
-            <a href="release3.zip" download>Release 3</a>
-        </div>
+      ))}
     </div>
   );
 };
