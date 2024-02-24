@@ -44,7 +44,7 @@ const Home = () => {
       
       <div className="mainDescription">
       <h3>
-        Revolutionize your audio experience with our cutting-edge speaker calibration app.
+        Revolutionize your audio experience with SoundSculpt.
         Unlock the true potential of your speakers and immerse yourself in crystal-clear sound.
       </h3>
 
