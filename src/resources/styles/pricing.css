@@ -1,0 +1,42 @@
+/* Pricing.css */
+
+.pricing-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.pricing-plan {
+  width: 30%; /* Adjust width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pricing-plan h2 {
+  color: #333;
+}
+
+.pricing-plan ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pricing-plan li {
+  margin-bottom: 10px;
+}
+
+.pricing-plan button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pricing-plan button:hover {
+  background-color: #0056b3;
+}
