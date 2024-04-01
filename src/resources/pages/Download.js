@@ -27,7 +27,11 @@ const Downloads = () => {
       <h1>Releases</h1>
       {releases.map(release => (
         <div className="release" key={release.id}>
-          <a href={release.zipball_url} download>{release.name || release.tag_name}</a>
+          {release.assets.map(asset => 
+            asset.name.endsWith('.exe') && (
+              <a href={asset.browser_download_url} download>{asset.name}</a>
+            )
+          )}
         </div>
       ))}
     </div>
