@@ -1,0 +1,48 @@
+.about-us-container h1 {
+    margin-top: 8%;
+    font-size: 3rem;
+    text-align: center;
+    color: #5a46aa;
+    text-shadow: 0 0 20px #5a46aa4d;
+  }
+
+.team-members {
+    display: flex;
+    justify-content: space-around; /* Optional: To give equal space around each team member */
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member-image {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: #5a46aa4d 5px solid;
+    box-shadow: 0 0 20px 0 #5a46aa4d;
+  }
+
+  .team-member h3 {
+    font-size: 1.25rem;
+    color: #00000091;
+  }
+
+  .team-description {
+    padding: 0 5rem 0 5rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: #00000091;
+  }
+
+  .team-description-2 {
+    text-align: center;
+    padding: 0 15rem 0 15rem;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: #00000091;
+  }
+  
