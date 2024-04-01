@@ -1,13 +1,19 @@
 /* Pricing.css */
 
+.pricing-heading {
+    font-size: 2.75rem;
+    text-align: center;
+    color: #271a5a;
+    text-shadow: 0 0 20px #5a46aa4d;
+}
 .pricing-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 20px;
 }
 
 .pricing-plan {
-  width: 30%; /* Adjust width as needed */
+  width: 40%; 
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
@@ -16,27 +22,33 @@
 
 .pricing-plan h2 {
   color: #333;
+  font-size: 2rem;
 }
 
 .pricing-plan ul {
   list-style-type: none;
-  padding: 0;
+  font-size: 1.5rem;
 }
 
 .pricing-plan li {
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 .pricing-plan button {
-  background-color: #007bff;
+  background-color: #4721cf;
   color: #fff;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-left: 40px;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .pricing-plan button:hover {
-  background-color: #0056b3;
+  background-color: #4f2685;
 }
