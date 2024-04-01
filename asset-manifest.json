@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/soundsculptsite/static/css/main.b1ab1a40.css",
-    "main.js": "/soundsculptsite/static/js/main.1d570147.js",
+    "main.css": "/soundsculptsite/static/css/main.54968fe6.css",
+    "main.js": "/soundsculptsite/static/js/main.5092fe67.js",
     "static/js/592.4956d682.chunk.js": "/soundsculptsite/static/js/592.4956d682.chunk.js",
     "static/media/homeDemo.png": "/soundsculptsite/static/media/homeDemo.6166aaf02736149cfbf9.png",
     "static/media/soundSculptLogo.png": "/soundsculptsite/static/media/soundSculptLogo.2959f498c93422973822.png",
     "index.html": "/soundsculptsite/index.html",
-    "main.b1ab1a40.css.map": "/soundsculptsite/static/css/main.b1ab1a40.css.map",
-    "main.1d570147.js.map": "/soundsculptsite/static/js/main.1d570147.js.map",
+    "main.54968fe6.css.map": "/soundsculptsite/static/css/main.54968fe6.css.map",
+    "main.5092fe67.js.map": "/soundsculptsite/static/js/main.5092fe67.js.map",
     "592.4956d682.chunk.js.map": "/soundsculptsite/static/js/592.4956d682.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1ab1a40.css",
-    "static/js/main.1d570147.js"
+    "static/css/main.54968fe6.css",
+    "static/js/main.5092fe67.js"
   ]
 }
