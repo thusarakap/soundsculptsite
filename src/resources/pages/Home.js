@@ -1,8 +1,8 @@
 // Home.js
 import React, { useEffect, useRef } from 'react';
 import image1 from '../images/homeDemo.png';
-import image2 from '../images/emailIcon.png';
-import image3 from '../images/soundSculptLogo.png';
+import image2 from '../images/calibratedDemo.png';
+import image3 from '../images/playerDemo.png';
 import '../styles/home.css';
 
 const images = [image1, image2, image3, image1, image2, image3, image1, image2, image3]; 
