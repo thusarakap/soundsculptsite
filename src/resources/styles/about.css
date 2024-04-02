@@ -17,7 +17,7 @@
   
   .team-member-image {
     width: 250px;
-    height: auto;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     border: #5a46aa4d 5px solid;
