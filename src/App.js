@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="soundsculptsite" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/contact" element={<Contact />} />
