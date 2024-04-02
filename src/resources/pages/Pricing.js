@@ -10,19 +10,19 @@ const Pricing = () => {
         <div className="pricing-plan">
           <h2>Free</h2>
           <ul>
-            <li>Feature 1</li>
+            <li>5 Devices Connected</li>
             <li>8 presets</li>
-            <li>Feature 3</li>
+            <li>Ads are Included</li>
           </ul>
           <button>Choose Plan</button>
         </div>
         <div className="pricing-plan">
           <h2>Supporter</h2>
           <ul>
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
-            <li>Feature 4</li>
+            <li>Unlimited Devices Connected</li>
+            <li>30 Presets + Community Presets</li>
+            <li>No Ads </li>
+            <li>Custom Presets</li>
           </ul>
           <button>Choose Plan</button>
         </div>

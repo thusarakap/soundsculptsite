@@ -1,11 +1,11 @@
 // About.js
 import React from 'react';
 import '../styles/about.css';
-import image1 from '../images/Thusaraka.png';
+import image1 from '../images/Hash.png';
 import image2 from '../images/Thusaraka.png';
-import image3 from '../images/Thusaraka.png';
-import image4 from '../images/Thusaraka.png';
-import image5 from '../images/Thusaraka.png';
+import image3 from '../images/Irushi.jpg';
+import image4 from '../images/Thevindu.jpg';
+import image5 from '../images/Saalim.jpg';
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
       <div className="team-members">
         <div className="team-member">
           <img src={image1} alt="Thusaraka Palliyguru" className="team-member-image" />
-          <h3>Thusaraka Palliyeguru</h3>
+          <h3>Hasitha Suranjana</h3>
         </div>
         <div className="team-member">
           <img src={image2} alt="Member 2" className="team-member-image" />
@@ -22,15 +22,15 @@ const About = () => {
         </div>
         <div className="team-member">
           <img src={image3} alt="Member 3" className="team-member-image" />
-          <h3>Thusaraka Palliyeguru</h3>
+          <h3>Irushi Rehani</h3>
         </div>
         <div className="team-member">
           <img src={image4} alt="Member 4" className="team-member-image" />
-          <h3>Thusaraka Palliyeguru</h3>
+          <h3>Thevindu Batuwangala</h3>
         </div>
         <div className="team-member">
           <img src={image5} alt="Member 5" className="team-member-image" />
-          <h3>Thusaraka Palliyeguru</h3>
+          <h3>Saalim Mazahir</h3>
         </div>
       </div>
       <p className="team-description">
